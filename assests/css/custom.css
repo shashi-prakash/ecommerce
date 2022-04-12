@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+.navbar-light .navbar-toggler {
+    color: none;
+    border: none !important;
+}
+*{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 15px;
+}
+.card-title{
+    font-style: italic;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.logi-button{
+    margin-left: 20px;
+    /* display: block; */
+}
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: none !important;
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 408px !important;
+}
+.footerContent{
+    display: flex;
+    justify-content: space-between;
+}
+.priceStyle{
+    /* color:#ffc107 ; */
+    font-size: 15px;
+    float: right;
+    margin-top: 5px;
+}
+.priceStyle:hover{
+    color:#ffc107 !important;
+    font-size: 15px;
+    cursor: pointer;
+   
+}
+.nav-link {
+    display: block;
+    padding: 0.6rem 1rem;
+    text-align: center;
+    font-size: 18px; 
+}
+.nav-link:hover {
+display: block;
+   border-bottom: 2px solid  #ffc107 !important;;
+   /* line-height: 10px; */
+   box-sizing: border-box;
+
+}
+.active{
+    color: #ffc107 !important;
+}
+#imgstyle{
+    height: 37px;
+    /* margin-left: 5px; */
+}
+ #imgstyle img{
+    background-color: #ffc107;
+    border: 2px solid #ffc107;
+    width: 100%;
+    margin-top: -4px;
+    /* margin-left: -50px; */
+}
+.colodd{
+    background-color: #e0e0e0
+}
+
+.imgeSection{
+    border: 2px solid #ffc107 !important;
+    height: 35px;
+    background: #ffc107 !important;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+
+}
+footer{
+    background-color: #e0e0e0;
+}
+.contact-section{
+    line-height: 10px;
+}
+.contact-section p a{
+    text-decoration: none;
+    color: #495057;
+    
+}
+.contact-section p a:hover{
+    color: #ffc107 !important;
+    
+}
+.productTitle{
+    color: #ffc107 !important; 
+    /* border-bottom: 2px solid #ffc107; */
+    font-style: italic;
+    font-weight: 800;
+}
+.textStyle{
+    font-size: 20px;
+}
+.styleMarque{
+    color:#ffc107 !important;
+    font-weight: 800;
+    font-size: 18px;
+}
+.card:hover{
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+
+}
+.card-img, .card-img-bottom, .card-img-top {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 100%;
+    height: 160px;
+}
+
+
+/* slidder card */
+
+@media only screen and (max-width: 600px) {
+    .carousel-inner {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        height: 210px !important;
+    }
+    .searchButton{
+        margin-left: 0px !important;
+    }
+    .logi-button{
+        margin: 0 auto;
+        display: block;
+        
+    }
+}
